@@ -3,8 +3,6 @@
 ### English
 Task 1.6 is about learning how to handle abstraction with generics.
 
-the use and implementation of Java Utils.
-
 - Level 1: [README.md](https://github.com/isaac-diez/1.6-Generics/tree/master/src/Level1/java/org)
 - Level 2: [README.md](https://github.com/isaac-diez/1.6-Generics/tree/master/src/Level2/java/org)
 - Level 3: [README.md](https://github.com/isaac-diez/1.6-Generics/tree/master/src/Level3/java/org)
