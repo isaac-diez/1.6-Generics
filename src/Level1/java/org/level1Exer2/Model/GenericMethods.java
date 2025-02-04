@@ -2,22 +2,20 @@ package org.level1Exer2.Model;
 
 public class GenericMethods <T,U,V>{
 
-    private T att1;
-    private U att2;
-    private V att3;
+    private T stringArg;
+    private U personArg;
+    private V booleanArg;
 
-    public GenericMethods(T att1, U att2, V att3) {
-        this.att1 = att1;
-        this.att2 = att2;
-        this.att3 = att3;
+    public GenericMethods(T string, U person, V booleanArg) {
+        this.stringArg = string;
+        this.personArg = person;
+        this.booleanArg = booleanArg;
     }
 
-    @Override
-    public String toString() {
-        return "GenericMethods{" +
-                "att1=" + att1 +
-                ", att2=" + att2 +
-                ", att3=" + att3 +
-                '}';
+    public void printArgs(T string, U person, V booleanArg) {
+        System.out.println("Argument1 : " + string);
+        System.out.println("Argument2 : " + person);
+        System.out.println("Argument3 : " + booleanArg);
     }
+
 }
